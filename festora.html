@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FESTORA College Fest</title>
+<style>
+body {font-family:Arial; margin:0; background:#f5f5fa}
+header, footer {background:#15152e; color:white; text-align:center; padding:15px}
+nav a {color:white; margin:10px; text-decoration:none}
+.banner {background:#7c3aed; color:white; text-align:center; padding:40px}
+.events {display:flex; flex-wrap:wrap; justify-content:center}
+.card {background:white; width:220px; margin:10px; padding:15px; text-align:center}
+img {width:100%; height:130px; object-fit:cover}
+h2 {text-align:center}
+table {margin:auto; border-collapse:collapse; width:90%}
+th,td {border:1px solid; padding:8px; text-align:center}
+form {background:white; max-width:400px; margin:20px auto; padding:20px}
+input,select,button {width:100%; padding:8px; margin:8px 0}
+button {background:#7c3aed; color:white; border:0}
+</style>
+</head>
+
+<body>
+<header>
+<h1>FESTORA 2026</h1>
+<nav>
+<a href="#home">Home</a>
+<a href="#events">Events</a>
+<a href="#schedule">Schedule</a>
+<a href="#register">Register</a>
+</nav>
+</header>
+
+<div class="banner" id="home">
+<h2>Where Innovation Meets Celebration</h2>
+<p>November 20 - 22, 2026</p>
+</div>
+
+<h2>Our Events</h2>
+<div class="events" id="events">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500">
+<h3>Code Clash</h3><p>Technical - Rahul</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500">
+<h3>Robo Wars</h3><p>Technical - Arjun</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=500">
+<h3>Dance Mania</h3><p>Cultural - Priya</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500">
+<h3>Voice of Campus</h3><p>Cultural - Sneha</p>
+</div>
+</div>
+
+<h2>Workshops</h2>
+<div class="events">
+<div class="card">AI Workshop</div>
+<div class="card">Cybersecurity</div>
+<div class="card">Web Development</div>
+</div>
+
+<h2 id="schedule">Event Schedule</h2>
+<table>
+<tr><th>Date</th><th>Event</th><th>Time</th></tr>
+<tr><td>Nov 20</td><td>Code Clash</td><td>10 AM</td></tr>
+<tr><td>Nov 21</td><td>Robo Wars</td><td>11 AM</td></tr>
+<tr><td>Nov 22</td><td>Dance Mania</td><td>4 PM</td></tr>
+</table>
+
+<h2>Rules</h2>
+<ul>
+<li>Bring college ID card.</li>
+<li>Register before the event.</li>
+<li>Maintain discipline.</li>
+<li>Follow coordinator instructions.</li>
+</ul>
+
+<h2 id="register">Student Registration</h2>
+<form>
+<input type="text" placeholder="Student Name" required>
+<input type="text" placeholder="College Name" required>
+<input type="text" placeholder="Roll Number" required>
+<input type="email" placeholder="Email" required>
+<select>
+<option>Technical</option>
+<option>Cultural</option>
+<option>Workshop</option>
+</select>
+<select>
+<option>Code Clash</option>
+<option>Robo Wars</option>
+<option>Dance Mania</option>
+<option>Voice of Campus</option>
+<option>AI Workshop</option>
+</select>
+<button type="submit">Register Now</button>
+</form>
+
+<footer>
+<p>© 2026 FESTORA College Fest</p>
+<p>Organized by College Student Council</p>
+</footer>
+</body>
+</html>
